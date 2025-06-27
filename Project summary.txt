@@ -1,0 +1,33 @@
+Project Title:- Password Strength Analyzer with Custom Wordlist Generator
+
+Objective:
+Create a Python-based tool to:  Analyze password strength.
+                                             Generate custom wordlists for ethical hacking or testing purposes.
+
+**Tools & Libraries Used:
+
+Python: Core language.
+argparse: For CLI interface.
+zxcvbn: To estimate password strength using real-world metrics.
+
+**Features:
+
+1. Password Strength Analyzer
+Uses zxcvbn to:
+Score password strength (0–4).
+Estimate time to crack.
+Provide feedback and suggestions.
+
+2. Custom Wordlist Generator
+Accepts user inputs: name, date of birth, pet name.
+Generates realistic password candidates by:
+Applying leetspeak substitutions.
+Adding uppercase/lowercase variations.
+Appending years, dates, and special characters.
+Creating combinations and permutations.
+
+**Deliverables:
+password_tool.py CLI script.
+Output files like custom_wordlist.txt.
+Documentation on usage.
+
